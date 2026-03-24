@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <title>Global Sea Level Analysis - Georgia Mattis</title>
+</head>
+<html>
+  <body>
+    <h1>Global Sea Level Analysis</h1>
+    <h2>Linear Model Coefficients (model1)</h2>
+    <pre>(Intercept)        time 
+3544641.368   -1578.967 </pre>
+    <img src="linear_plot.png" width="600"/>
+    <h2>Quadratic Model Coefficients (model2)</h2>
+    <pre>  (Intercept)          time     I(time^2) 
+ 5.743958e+08 -5.732316e+05  1.431136e+02 </pre>
+    <img src="quadratic_plot.png" width="600"/>
+    <h3>Text Answers</h3>
+    <p>Adequate model1: The linear model captures the general upward trend in sea level, but the residuals show curvature, indicating the linear model does not fully capture the acceleration in sea level rise.</p>
+    <p>Improvement: I think that the quadratic model is an improvement because it accounts for the acceleration in sea level rise, reducing the systematic pattern in residuals and fitting the data more closely.</p>
+  </body>
+</html>
+</html>
